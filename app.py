@@ -104,6 +104,26 @@ return jsonify({
     "wrong": wrong,
     "unattempted": un
 })
+@app.route("/response/<int:result_id>")
+def response_sheet(result_id):
+    c = db()
+    row = c.execute(
+        "SELECT * FROM results WHERE id=?",
+        (result_id,)
+    ).fetchone()
+    c.close()
+
+    if not row:
+        return "Response sheet not found", 404
+
+    answers = json.loads(row["answers"])
+
+    return render_template(
+        "response.html",
+        row=row,
+        answers=answers,
+        questions=QUESTIONS
+    )
 
 @app.route("/teacher/login", methods=["GET","POST"])
 def login():
