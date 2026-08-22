@@ -104,6 +104,7 @@ return jsonify({
     "wrong": wrong,
     "unattempted": un
 })
+
 @app.route("/response/<int:result_id>")
 def response_sheet(result_id):
     c = db()
