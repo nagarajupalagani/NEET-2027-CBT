@@ -93,8 +93,17 @@ def submit():
     c=db()
     c.execute("INSERT INTO results(name,roll,score,correct,wrong,unattempted,time_taken,answers) VALUES(?,?,?,?,?,?,?,?)",
               (name,roll,score,correct,wrong,un,elapsed,json.dumps(answers)))
-    c.commit(); c.close()
-    return jsonify({"score":score,"correct":correct,"wrong":wrong,"unattempted":un})
+    c.commit()
+result_id = c.lastrowid
+c.close()
+
+return jsonify({
+    "id": result_id,
+    "score": score,
+    "correct": correct,
+    "wrong": wrong,
+    "unattempted": un
+})
 
 @app.route("/teacher/login", methods=["GET","POST"])
 def login():
