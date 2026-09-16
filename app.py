@@ -94,7 +94,7 @@ def submit():
     c.execute("INSERT INTO results(name,roll,score,correct,wrong,unattempted,time_taken,answers) VALUES(?,?,?,?,?,?,?,?)",
               (name,roll,score,correct,wrong,un,elapsed,json.dumps(answers)))
     c.commit()
-    result_id = c.lastrowid
+    result_id = c.execute("SELECT last_insert_rowid()").fetchone()[0]
     c.close()
 
     return jsonify({
