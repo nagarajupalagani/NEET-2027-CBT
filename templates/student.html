@@ -10,6 +10,36 @@ function start(){let n=document.getElementById('name').value.trim(),r=document.g
 function render(){let q=Q[i],s='<b>Question '+(i+1)+' of '+Q.length+'</b><p><b>'+q[0]+'</b></p><h3>'+q[1]+'</h3>';q[2].forEach((x,j)=>s+='<label class="opt"><input type="radio" name="o" '+(a[i]===j?'checked':'')+' onchange="a[i]='+j+'"> '+String.fromCharCode(65+j)+'. '+x+'</label>');document.getElementById('q').innerHTML=s;palette()}
 function palette(){document.getElementById('pal').innerHTML=Q.map((_,j)=>'<button class="'+(a[j]!=null?'answered ':'')+(m[j]?'marked ':'')+(j==i?'current':'')+'" onclick="i='+j+';render()">'+(j+1)+'</button>').join('')}
 function next(){if(i<Q.length-1){i++;render()}else submitTest()}function prev(){if(i>0){i--;render()}}function mark(){m[i]=!m[i];palette()}function clearA(){a[i]=null;render()}
-async function submitTest(){if(!active||submitted)return;if(!confirm("Submit test now?"))return;submitted=true;active=false;let elapsed=3600-remain;let res=await fetch('/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:document.getElementById('name').value.trim(),roll:document.getElementById('roll').value.trim(),answers:a,elapsed})});let d=await res.json();document.getElementById('exam').style.display='none';document.getElementById('done').style.display='block';document.getElementById('result').innerHTML='<h2>Test Submitted Successfully</h2><p>Score: <b>'+d.score+'/200</b></p><p>Correct: '+d.correct+' | Wrong: '+d.wrong+' | Unattempted: '+d.unattempted+'</p><p>Your result has been recorded for the teacher.</p>'}
+async function submitTest(){
+    if(!active || submitted) return;
+
+    if(!confirm("Submit test now?")) return;
+
+    submitted = true;
+    active = false;
+
+    let elapsed = 3600 - remain;
+
+    let res = await fetch('/submit', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: document.getElementById('name').value.trim(),
+            roll: document.getElementById('roll').value.trim(),
+            answers: a,
+            elapsed: elapsed
+        })
+    });
+
+    let d = await res.json();
+
+    if(d.id){
+        window.location.href = '/response/' + d.id;
+    }else{
+        alert("Test submitted, but response sheet could not be opened.");
+    }
+}
 function tick(){if(!active)return;let x=3600-Math.floor((Date.now()-startT)/1000);remain=Math.max(0,x);document.getElementById('timer').textContent=String(Math.floor(remain/60)).padStart(2,'0')+':'+String(remain%60).padStart(2,'0');if(remain<=0){submitted=true;active=false;fetch('/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:document.getElementById('name').value.trim(),roll:document.getElementById('roll').value.trim(),answers:a,elapsed:3600})}).then(()=>location.reload())}else setTimeout(tick,500)}
 </script></body></html>
