@@ -17,216 +17,215 @@ DURATION = 60
 
 QUESTIONS = [
 
-["Work, Energy & Power",
-" A force of 10 N acts on a body and displaces it by 5 m in the direction of the force. The work done is:",
-["10 J", "25 J", "50 J", "100 J"], 2],
+["Newton's Laws of Motion",
+"A body continues to remain in its state of rest or uniform motion in a straight line unless acted upon by an external force. This statement represents:",
+["Newton's first law", "Newton's second law", "Newton's third law", "Law of gravitation"], 0],
 
-["Work, Energy & Power",
-"A body is displaced through 10 m by a force of 20 N acting at 60° to the displacement. Work done is:",
-["50 J", "100 J", "150 J", "200 J"], 1],
+["Newton's Laws of Motion",
+"The inertia of a body depends on its:",
+["Velocity", "Acceleration", "Mass", "Force"], 2],
 
-["Work, Energy & Power",
-"The work done by a force is zero when the angle between force and displacement is:",
-["0°", "45°", "90°", "180°"], 2],
+["Newton's Laws of Motion",
+"A passenger in a moving bus falls forward when the bus suddenly stops due to:",
+["Inertia of rest", "Inertia of motion", "Inertia of direction", "Gravitational force"], 1],
 
-["Work, Energy & Power",
-"A person carries a bag horizontally at constant speed. The work done by the person's upward force on the bag is:",
-["Positive", "Negative", "Zero", "Maximum"], 2],
+["Newton's Laws of Motion",
+"When a bus suddenly starts moving, a passenger tends to fall backward because of:",
+["Inertia of rest", "Inertia of motion", "Inertia of direction", "Friction"], 0],
 
-["Work, Energy & Power",
-"The SI unit of work is:",
-["Newton", "Joule", "Watt", "Pascal"], 1],
+["Newton's Laws of Motion",
+"Newton's second law of motion gives the relation between:",
+["Mass and velocity", "Force and acceleration", "Work and energy", "Momentum and displacement"], 1],
 
-["Work, Energy & Power",
-"One joule is equal to:",
-["1 N/m", "1 N m", "1 kg m", "1 W/s"], 1],
+["Newton's Laws of Motion",
+"The SI unit of force is:",
+["Joule", "Watt", "Newton", "Pascal"], 2],
 
-["Work, Energy & Power",
-"A force F = 2x acts on a particle along the x-axis. Work done from x = 0 to x = 3 m is:",
-["3 J", "6 J", "9 J", "18 J"], 2],
+["Newton's Laws of Motion",
+"A force of 20 N acts on a body of mass 5 kg. Its acceleration is:",
+["2 m/s²", "4 m/s²", "5 m/s²", "100 m/s²"], 1],
 
-["Work, Energy & Power",
-"The work done by a variable force is obtained from the:",
-["Slope of F-x graph", "Area under F-x graph", "Area under v-t graph", "Slope of v-t graph"], 1],
+["Newton's Laws of Motion",
+"If the net force acting on a body is zero, its acceleration is:",
+["Zero", "Maximum", "Constant non-zero", "Infinite"], 0],
 
-["Work, Energy & Power",
-"A 2 kg body moving with velocity 5 m/s has kinetic energy:",
-["10 J", "20 J", "25 J", "50 J"], 2],
+["Newton's Laws of Motion",
+"A body of mass 10 kg is acted upon by a force of 50 N. Its acceleration is:",
+["2 m/s²", "5 m/s²", "10 m/s²", "500 m/s²"], 1],
 
-["Work, Energy & Power",
-"If the velocity of a body is doubled, its kinetic energy becomes:",
-["2 times", "3 times", "4 times", "8 times"], 2],
+["Newton's Laws of Motion",
+"The momentum of a body is defined as:",
+["mv", "ma", "m/v", "v/m"], 0],
 
-["Work, Energy & Power",
-"The kinetic energy of a body of mass m moving with speed v is:",
-["mv", "mv²", "½mv²", "2mv²"], 2],
+["Newton's Laws of Motion",
+"The rate of change of momentum of a body is equal to:",
+["Energy", "Power", "Force", "Work"], 2],
 
-["Work, Energy & Power",
-"A body of mass 4 kg has kinetic energy 200 J. Its speed is:",
-["5 m/s", "10 m/s", "20 m/s", "25 m/s"], 1],
-
-["Work, Energy & Power",
-"The work-energy theorem states that net work done on a body equals:",
-["Change in momentum", "Change in kinetic energy", "Change in potential energy", "Change in power"], 1],
-
-["Work, Energy & Power",
-"A body initially at rest is acted upon by a constant force. Its kinetic energy varies with time as:",
-["t", "t²", "1/t", "constant"], 1],
-
-["Work, Energy & Power",
-"A 5 kg body falls freely through a height of 10 m. Taking g = 10 m/s², its loss of potential energy is:",
-["50 J", "100 J", "500 J", "1000 J"], 2],
-
-["Work, Energy & Power",
-"Potential energy of a body of mass m at height h above ground is:",
-["mg/h", "mgh", "½mgh", "mg²h"], 1],
-
-["Work, Energy & Power",
-"A body of mass 2 kg is raised to a height of 5 m. Taking g = 10 m/s², its potential energy is:",
-["50 J", "100 J", "150 J", "200 J"], 1],
-
-["Work, Energy & Power",
-"Gravitational force is an example of:",
-["Non-conservative force", "Conservative force", "Contact force only", "Variable force only"], 1],
-
-["Work, Energy & Power",
-"The work done by a conservative force around a closed path is:",
-["Positive", "Negative", "Zero", "Infinite"], 2],
-
-["Work, Energy & Power",
-"Which of the following is a conservative force?",
-["Friction", "Air resistance", "Gravitational force", "Viscous force"], 2],
-
-["Work, Energy & Power",
-"Mechanical energy is conserved when:",
-["Only conservative forces do work", "Only friction acts", "External force always acts", "Velocity is zero"], 0],
-
-["Work, Energy & Power",
-"A spring of force constant k is compressed by x. Its elastic potential energy is:",
-["kx", "kx²", "½kx²", "2kx²"], 2],
-
-["Work, Energy & Power",
-"A spring is stretched by 2 cm. If its extension is doubled, its stored energy becomes:",
-["2 times", "4 times", "8 times", "Half"], 1],
-
-["Work, Energy & Power",
-"The force exerted by an ideal spring is:",
-["F = kx", "F = -kx", "F = k/x", "F = x/k"], 1],
-
-["Work, Energy & Power",
-"A 10 kg body moving at 4 m/s has momentum:",
-["20 kg m/s", "40 kg m/s", "80 kg m/s", "160 kg m/s"], 1],
-
-["Work, Energy & Power",
-"A body of mass 2 kg moving at 3 m/s is brought to rest. The work done by the retarding force is:",
-["+9 J", "-9 J", "+18 J", "-18 J"], 1],
-
-["Work, Energy & Power",
-"A force of 100 N moves a body with velocity 2 m/s in the direction of force. Power is:",
-["50 W", "100 W", "200 W", "400 W"], 2],
-
-["Work, Energy & Power",
-"The SI unit of power is:",
-["Joule", "Newton", "Watt", "kWh"], 2],
-
-["Work, Energy & Power",
-"One horsepower is approximately:",
-["246 W", "546 W", "746 W", "946 W"], 2],
-
-["Work, Energy & Power",
-"A machine does 6000 J of work in 30 s. Its power is:",
-["100 W", "200 W", "300 W", "600 W"], 1],
-
-["Work, Energy & Power",
-"A force of 50 N acts on a body moving with speed 4 m/s at an angle of 60° to the velocity. Power is:",
-["50 W", "100 W", "150 W", "200 W"], 1],
-
-["Work, Energy & Power",
-"The instantaneous power delivered by a force is:",
-["F/v", "Fv", "F + v", "F - v"], 1],
-
-["Work, Energy & Power",
-"A 1000 kg car accelerates from 10 m/s to 20 m/s. The change in kinetic energy is:",
-["50 kJ", "100 kJ", "150 kJ", "200 kJ"], 2],
-
-["Work, Energy & Power",
-"A particle moves in a circle with constant speed. The work done by centripetal force is:",
-["Positive", "Negative", "Zero", "Maximum"], 2],
-
-["Work, Energy & Power",
-"Friction acting on a sliding body generally does:",
-["Positive work", "Negative work", "Zero work always", "Infinite work"], 1],
-
-["Work, Energy & Power",
-"A block slides down a rough inclined plane. The work done by friction is:",
-["Positive", "Negative", "Zero", "Cannot be defined"], 1],
-
-["Work, Energy & Power",
-"A block slides down a smooth inclined plane. The decrease in gravitational potential energy is converted into:",
-["Heat only", "Kinetic energy", "Sound only", "Momentum"], 1],
-
-["Work, Energy & Power",
-"A ball is thrown vertically upward. At its highest point:",
-["KE maximum, PE minimum", "KE zero, PE maximum", "Both KE and PE zero", "KE maximum, PE maximum"], 1],
-
-["Work, Energy & Power",
-"During free fall, neglecting air resistance:",
-["KE decreases and PE decreases", "KE increases and PE decreases", "KE decreases and PE increases", "Both remain constant"], 1],
-
-["Work, Energy & Power",
-"A body is projected vertically upward with speed u. Its maximum height is:",
-["u/g", "u²/g", "u²/2g", "2u²/g"], 2],
-
-["Work, Energy & Power",
-"A body is dropped from height h. Just before reaching the ground its speed is:",
-["√(gh)", "√(2gh)", "2gh", "gh"], 1],
-
-["Work, Energy & Power",
-"If the mass of a body is doubled while its velocity remains unchanged, its kinetic energy:",
+["Newton's Laws of Motion",
+"If the momentum of a body is doubled while its mass remains constant, its velocity:",
 ["Becomes half", "Remains same", "Doubles", "Becomes four times"], 2],
 
-["Work, Energy & Power",
-"If both mass and velocity of a body are doubled, its kinetic energy becomes:",
-["2 times", "4 times", "6 times", "8 times"], 3],
+["Newton's Laws of Motion",
+"A force of 10 N acts on a body for 2 s. The impulse delivered is:",
+["5 Ns", "10 Ns", "20 Ns", "40 Ns"], 2],
 
-["Work, Energy & Power",
-"A 1 kg body moving at 10 m/s collides with a wall and rebounds at 10 m/s. The change in kinetic energy is:",
-["100 J", "50 J", "Zero", "-100 J"], 2],
+["Newton's Laws of Motion",
+"Impulse is equal to:",
+["Change in kinetic energy", "Change in momentum", "Change in velocity", "Rate of change of momentum"], 1],
 
-["Work, Energy & Power",
-"A force-displacement graph is a horizontal line at F = 5 N from x = 0 to x = 4 m. Work done is:",
-["1.25 J", "9 J", "20 J", "25 J"], 2],
+["Newton's Laws of Motion",
+"Newton's third law states that action and reaction:",
+["Act on the same body", "Are equal and opposite and act on different bodies", "Are unequal", "Always cancel each other"], 1],
 
-["Work, Energy & Power",
-"The area under a power-time graph represents:",
-["Force", "Work done", "Momentum", "Acceleration"], 1],
+["Newton's Laws of Motion",
+"A gun recoils when a bullet is fired because of:",
+["Newton's first law", "Newton's second law", "Newton's third law", "Conservation of energy only"], 2],
 
-["Work, Energy & Power",
-"The area under a force-displacement graph represents:",
-["Power", "Energy/work", "Velocity", "Acceleration"], 1],
+["Newton's Laws of Motion",
+"When a person walks on the ground, the force that actually propels the person forward is:",
+["Weight", "Normal reaction", "Static friction", "Air resistance"], 2],
 
-["Work, Energy & Power",
-"A motor lifts a 100 kg load vertically upward at constant speed 2 m/s. Taking g = 10 m/s², power required is:",
-["500 W", "1000 W", "2000 W", "4000 W"], 2],
+["Newton's Laws of Motion",
+"A book is placed on a horizontal table. The normal reaction of the table acts:",
+["Horizontally", "Vertically upward", "Vertically downward", "Along the surface"], 1],
 
-["Work, Energy & Power",
-"A 60 W bulb operates for 5 hours. Energy consumed is:",
-["0.03 kWh", "0.3 kWh", "3 kWh", "30 kWh"], 1],
+["Newton's Laws of Motion",
+"A block of mass m rests on a horizontal surface. Its normal reaction is:",
+["mg", "m/g", "Zero", "mg/2"], 0],
 
-["Work, Energy & Power",
-"1 kWh is equal to:",
-["3.6 × 10³ J", "3.6 × 10⁴ J", "3.6 × 10⁵ J", "3.6 × 10⁶ J"], 3],
+["Newton's Laws of Motion",
+"A body is pulled horizontally by a force F on a frictionless surface. Its acceleration is:",
+["F/m", "mF", "F+m", "m/F"], 0],
 
-["Work, Energy & Power",
-"A machine has input power 1000 W and output power 800 W. Its efficiency is:",
-["20%", "50%", "80%", "125%"], 2],
+["Newton's Laws of Motion",
+"A 5 kg block is pulled by a horizontal force of 20 N on a smooth surface. Its acceleration is:",
+["2 m/s²", "4 m/s²", "5 m/s²", "100 m/s²"], 1],
 
-["Work, Energy & Power",
-"A body moves with constant speed in a straight line under the action of several forces. The net work done over any displacement is:",
-["Positive", "Negative", "Zero", "Infinite"], 2],
+["Newton's Laws of Motion",
+"Two forces of 10 N and 6 N act in the same direction on a body. The resultant force is:",
+["4 N", "6 N", "16 N", "60 N"], 2],
+
+["Newton's Laws of Motion",
+"Two forces of 10 N and 6 N act in opposite directions on a body. The resultant force is:",
+["4 N", "16 N", "60 N", "1.67 N"], 0],
+
+["Newton's Laws of Motion",
+"Two equal and opposite forces acting on the same body produce:",
+["Maximum acceleration", "Zero net force", "Double acceleration", "Infinite acceleration"], 1],
+
+["Newton's Laws of Motion",
+"A block is moving with constant velocity on a horizontal surface. The net force on it is:",
+["Zero", "Equal to its weight", "Equal to friction", "Maximum"], 0],
+
+["Newton's Laws of Motion",
+"The coefficient of friction is defined as the ratio of:",
+["Friction to normal reaction", "Normal reaction to friction", "Mass to force", "Force to acceleration"], 0],
+
+["Newton's Laws of Motion",
+"The maximum value of static friction is called:",
+["Kinetic friction", "Limiting friction", "Rolling friction", "Viscous force"], 1],
+
+["Newton's Laws of Motion",
+"Frictional force is generally:",
+["Always independent of normal reaction", "Proportional to normal reaction", "Proportional to velocity always", "Independent of surfaces"], 1],
+
+["Newton's Laws of Motion",
+"A block of mass 10 kg is on a horizontal surface with coefficient of friction 0.2. Taking g = 10 m/s², limiting friction is:",
+["2 N", "10 N", "20 N", "50 N"], 2],
+
+["Newton's Laws of Motion",
+"A block is moving on a rough horizontal surface. Kinetic friction acts:",
+["In the direction of motion", "Opposite to relative motion", "Vertically upward", "Vertically downward"], 1],
+
+["Newton's Laws of Motion",
+"A block is placed on an inclined plane of angle θ. The component of its weight parallel to the plane is:",
+["mg cosθ", "mg sinθ", "mg tanθ", "mg"], 1],
+
+["Newton's Laws of Motion",
+"For a block on a smooth inclined plane of angle θ, its acceleration down the plane is:",
+["g", "g cosθ", "g sinθ", "g tanθ"], 2],
+
+["Newton's Laws of Motion",
+"For a block resting on a smooth inclined plane, the normal reaction is:",
+["mg", "mg sinθ", "mg cosθ", "Zero"], 2],
+
+["Newton's Laws of Motion",
+"A block slides down a rough inclined plane. Friction acts:",
+["Down the plane", "Up the plane", "Vertically downward", "Horizontally"], 1],
+
+["Newton's Laws of Motion",
+"A person standing in a lift experiences a normal reaction greater than their weight when the lift:",
+["Moves upward with constant velocity", "Moves downward with constant velocity", "Accelerates upward", "Is at rest"], 2],
+
+["Newton's Laws of Motion",
+"A person of mass m stands in a lift accelerating upward with acceleration a. The apparent weight is:",
+["mg", "m(g-a)", "m(g+a)", "ma"], 2],
+
+["Newton's Laws of Motion",
+"A person in a lift accelerating downward with acceleration a experiences apparent weight:",
+["m(g+a)", "m(g-a)", "mg", "ma"], 1],
+
+["Newton's Laws of Motion",
+"When a lift is freely falling, the apparent weight of a person inside is:",
+["mg", "2mg", "Zero", "mg/2"], 2],
+
+["Newton's Laws of Motion",
+"Two blocks of masses 2 kg and 3 kg are connected by a light string on a smooth horizontal surface and pulled by a 10 N force. Their common acceleration is:",
+["1 m/s²", "2 m/s²", "5 m/s²", "10 m/s²"], 1],
+
+["Newton's Laws of Motion",
+"In an ideal Atwood machine, masses m and 2m are connected by a light inextensible string. The acceleration of the system is:",
+["g/3", "g/2", "2g/3", "g"], 0],
+
+["Newton's Laws of Motion",
+"In an ideal Atwood machine, the tension in the string is:",
+["Always zero", "Same throughout the string", "Different at every point", "Equal to the heavier weight"], 1],
+
+["Newton's Laws of Motion",
+"A body moving in a circle with constant speed has:",
+["Zero acceleration", "Constant velocity", "Centripetal acceleration", "No force"], 2],
+
+["Newton's Laws of Motion",
+"The centripetal acceleration of a particle moving with speed v in a circle of radius r is:",
+["vr", "v/r", "v²/r", "r/v²"], 2],
+
+["Newton's Laws of Motion",
+"The centripetal force required for circular motion is:",
+["mv/r", "mv²/r", "mr/v²", "mv²r"], 1],
+
+["Newton's Laws of Motion",
+"A car moves on a level circular road. The centripetal force is provided by:",
+["Weight", "Normal reaction", "Friction", "Engine power only"], 2],
+
+["Newton's Laws of Motion",
+"On a banked road, the horizontal component of normal reaction can provide:",
+["Weight", "Centripetal force", "Friction only", "Gravitational potential energy"], 1],
+
+["Newton's Laws of Motion",
+"A force of 100 N acts on a body of mass 20 kg. If friction opposing motion is 20 N, acceleration is:",
+["2 m/s²", "4 m/s²", "5 m/s²", "6 m/s²"], 0],
+
+["Newton's Laws of Motion",
+"A 2 kg block is acted upon by a net force of 6 N. Starting from rest, its velocity after 3 s is:",
+["3 m/s", "6 m/s", "9 m/s", "12 m/s"], 2],
+
+["Newton's Laws of Motion",
+"A 4 kg body changes its velocity from 5 m/s to 10 m/s in 2 s. The net force acting on it is:",
+["5 N", "10 N", "15 N", "20 N"], 1],
+
+["Newton's Laws of Motion",
+"A force acts on a body for a very short time and produces a large change in momentum. This is an example of:",
+["Impulse", "Power", "Work", "Potential energy"], 0],
+
+["Newton's Laws of Motion",
+"Seat belts in cars are used mainly because of:",
+["Newton's law of gravitation", "Inertia of motion", "Conservation of energy", "Buoyancy"], 1],
+
+["Newton's Laws of Motion",
+"While jumping from a boat to the shore, the boat moves backward due to:",
+["Newton's first law", "Newton's second law", "Newton's third law", "Conservation of energy"], 2],
 
 ]
-
 
 # =========================================================
 # DATABASE
@@ -271,7 +270,7 @@ STUDENT_HTML = """
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NEET 2027 Physics - Work Energy Power</title>
+<title>NEET 2027 Physics - Newton's Laws of Motion</title>
 
 <style>
 body{
@@ -419,7 +418,7 @@ button{
 <body>
 
 <header>
-<div>NEET 2027 PHYSICS • TEST 01</div>
+<div>NEET 2027 PHYSICS • TEST 03</div>
 <div class="timer" id="timer">60:00</div>
 </header>
 
