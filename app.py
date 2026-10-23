@@ -16,215 +16,140 @@ DURATION = 60
 # =========================================================
 
 QUESTIONS = [
+    ["Units & Measurements", "The dimensional formula of Planck's constant is:",
+     ["[M L T^-1]", "[M L^2 T^-1]", "[M L^2 T^-2]", "[L^2 T^-1]"], 1],
 
-["Newton's Laws of Motion",
-"A body continues to remain in its state of rest or uniform motion in a straight line unless acted upon by an external force. This statement represents:",
-["Newton's first law", "Newton's second law", "Newton's third law", "Law of gravitation"], 0],
+    ["Units & Measurements", "Which of the following is dimensionless?",
+     ["Force", "Pressure", "Strain", "Surface tension"], 2],
 
-["Newton's Laws of Motion",
-"The inertia of a body depends on its:",
-["Velocity", "Acceleration", "Mass", "Force"], 2],
+    ["Dimensional Analysis", "The time period T of a simple pendulum depends on its length l and acceleration due to gravity g. Using dimensional analysis, the relation is:",
+     ["T proportional to sqrt(l/g)", "T proportional to l/g", "T proportional to sqrt(g/l)", "T proportional to l*g"], 0],
 
-["Newton's Laws of Motion",
-"A passenger in a moving bus falls forward when the bus suddenly stops due to:",
-["Inertia of rest", "Inertia of motion", "Inertia of direction", "Gravitational force"], 1],
+    ["Units & Measurements", "If the percentage errors in mass and velocity are 2% and 3%, respectively, the maximum percentage error in kinetic energy is:",
+     ["3%", "5%", "8%", "10%"], 2],
 
-["Newton's Laws of Motion",
-"When a bus suddenly starts moving, a passenger tends to fall backward because of:",
-["Inertia of rest", "Inertia of motion", "Inertia of direction", "Friction"], 0],
+    ["Units & Measurements", "For Q = A^2 sqrt(B) / C^3, the percentage errors in A, B, and C are 1%, 4%, and 2%, respectively. The maximum percentage error in Q is:",
+     ["6%", "10%", "8%", "12%"], 1],
 
-["Newton's Laws of Motion",
-"Newton's second law of motion gives the relation between:",
-["Mass and velocity", "Force and acceleration", "Work and energy", "Momentum and displacement"], 1],
+    ["Dimensions", "The dimensional formula of pressure is:",
+     ["[M L^-1 T^-2]", "[M L T^-2]", "[M L^2 T^-2]", "[M L^-2 T^-1]"], 0],
 
-["Newton's Laws of Motion",
-"The SI unit of force is:",
-["Joule", "Watt", "Newton", "Pascal"], 2],
+    ["Dimensions", "The SI unit of the universal gravitational constant G is:",
+     ["N m kg^-1", "N m^2 kg^-2", "N m^-2 kg^2", "kg m s^-1"], 1],
 
-["Newton's Laws of Motion",
-"A force of 20 N acts on a body of mass 5 kg. Its acceleration is:",
-["2 m/s²", "4 m/s²", "5 m/s²", "100 m/s²"], 1],
+    ["Dimensions", "The dimensions of 1/(mu_0 epsilon_0), where mu_0 and epsilon_0 are the permeability and permittivity of free space, are:",
+     ["[L T^-1]", "[L^2 T^-2]", "[M L T^-2]", "[L^-2 T^2]"], 1],
 
-["Newton's Laws of Motion",
-"If the net force acting on a body is zero, its acceleration is:",
-["Zero", "Maximum", "Constant non-zero", "Infinite"], 0],
+    ["Dimensions", "Which pair has the same dimensions?",
+     ["Work and power", "Torque and work", "Force and pressure", "Momentum and energy"], 1],
 
-["Newton's Laws of Motion",
-"A body of mass 10 kg is acted upon by a force of 50 N. Its acceleration is:",
-["2 m/s²", "5 m/s²", "10 m/s²", "500 m/s²"], 1],
+    ["Units & Measurements", "The number of significant figures in 0.005060 is:",
+     ["2", "3", "4", "5"], 2],
 
-["Newton's Laws of Motion",
-"The momentum of a body is defined as:",
-["mv", "ma", "m/v", "v/m"], 0],
+    ["Dimensions", "The dimensional formula of surface tension is:",
+     ["[M T^-2]", "[M L T^-2]", "[M L^-1 T^-2]", "[M L^2 T^-2]"], 0],
 
-["Newton's Laws of Motion",
-"The rate of change of momentum of a body is equal to:",
-["Energy", "Power", "Force", "Work"], 2],
+    ["Units & Measurements", "If x = 2.50 m and y = 1.2 m, the value of x + y, expressed with appropriate precision, is:",
+     ["3.70 m", "3.7 m", "3.700 m", "3.0 m"], 1],
 
-["Newton's Laws of Motion",
-"If the momentum of a body is doubled while its mass remains constant, its velocity:",
-["Becomes half", "Remains same", "Doubles", "Becomes four times"], 2],
+    ["Units & Measurements", "A length is measured as (5.2 +/- 0.1) cm. Its approximate percentage error is:",
+     ["0.52%", "1.9%", "5.2%", "10%"], 1],
 
-["Newton's Laws of Motion",
-"A force of 10 N acts on a body for 2 s. The impulse delivered is:",
-["5 Ns", "10 Ns", "20 Ns", "40 Ns"], 2],
+    ["Dimensions", "The dimensional formula of coefficient of viscosity is:",
+     ["[M L^-1 T^-1]", "[M L T^-2]", "[M^0 L^0 T^0]", "[M L^-2 T^-2]"], 0],
 
-["Newton's Laws of Motion",
-"Impulse is equal to:",
-["Change in kinetic energy", "Change in momentum", "Change in velocity", "Rate of change of momentum"], 1],
+    ["Dimensions", "The dimensional formula of angular momentum is:",
+     ["[M L^2 T^-1]", "[M L T^-1]", "[M L^2 T^-2]", "[M^0 L^0 T^0]"], 0],
 
-["Newton's Laws of Motion",
-"Newton's third law states that action and reaction:",
-["Act on the same body", "Are equal and opposite and act on different bodies", "Are unequal", "Always cancel each other"], 1],
+    ["Dimensional Analysis", "Which of the following equations is dimensionally consistent?",
+     ["s = ut + (1/2)at^2", "s = u + at", "v = u + at^2", "s = ut^2 + at"], 0],
 
-["Newton's Laws of Motion",
-"A gun recoils when a bullet is fired because of:",
-["Newton's first law", "Newton's second law", "Newton's third law", "Conservation of energy only"], 2],
+    ["Units & Measurements", "The SI unit of impulse is:",
+     ["N s", "N/s", "J/s", "kg m^2/s^2"], 0],
 
-["Newton's Laws of Motion",
-"When a person walks on the ground, the force that actually propels the person forward is:",
-["Weight", "Normal reaction", "Static friction", "Air resistance"], 2],
+    ["Dimensional Analysis", "If P = a/(b+c), and b and c have the same dimensions, for the equation to be dimensionally consistent:",
+     ["[P] = [a]/[b]", "[P] = [a][b]", "[P] = [b]/[a]", "[P] = [a]+[b]"], 0],
 
-["Newton's Laws of Motion",
-"A book is placed on a horizontal table. The normal reaction of the table acts:",
-["Horizontally", "Vertically upward", "Vertically downward", "Along the surface"], 1],
+    ["Dimensions", "The dimensional formula of refractive index is:",
+     ["[L T^-1]", "[M^0 L^0 T^0]", "[M L T^-1]", "[M L^-1 T^-2]"], 1],
 
-["Newton's Laws of Motion",
-"A block of mass m rests on a horizontal surface. Its normal reaction is:",
-["mg", "m/g", "Zero", "mg/2"], 0],
+    ["Dimensions", "The dimensional formula of the gravitational constant G is:",
+     ["[M^-1 L^3 T^-2]", "[M L^3 T^-2]", "[M^-1 L T^-2]", "[M L^-2 T^-1]"], 0],
 
-["Newton's Laws of Motion",
-"A body is pulled horizontally by a force F on a frictionless surface. Its acceleration is:",
-["F/m", "mF", "F+m", "m/F"], 0],
+    ["Motion in a Straight Line", "A body starts from rest and moves with uniform acceleration 2 m/s^2. Its displacement in 5 s is:",
+     ["10 m", "20 m", "25 m", "50 m"], 2],
 
-["Newton's Laws of Motion",
-"A 5 kg block is pulled by a horizontal force of 20 N on a smooth surface. Its acceleration is:",
-["2 m/s²", "4 m/s²", "5 m/s²", "100 m/s²"], 1],
+    ["Motion in a Straight Line", "A body has an initial velocity of 10 m/s and acceleration -2 m/s^2. Its velocity after 8 s is:",
+     ["-6 m/s", "-4 m/s", "4 m/s", "6 m/s"], 0],
 
-["Newton's Laws of Motion",
-"Two forces of 10 N and 6 N act in the same direction on a body. The resultant force is:",
-["4 N", "6 N", "16 N", "60 N"], 2],
+    ["Motion in a Straight Line", "A particle travels 30 m in the first 2 s and 50 m in the next 2 s under uniform acceleration. Its acceleration is:",
+     ["2 m/s^2", "5 m/s^2", "10 m/s^2", "20 m/s^2"], 1],
 
-["Newton's Laws of Motion",
-"Two forces of 10 N and 6 N act in opposite directions on a body. The resultant force is:",
-["4 N", "16 N", "60 N", "1.67 N"], 0],
+    ["Motion in a Straight Line", "The velocity of a particle is v = 6t - 2t^2, in SI units. Its displacement between t = 0 and t = 2 s is:",
+     ["8 m", "10 m", "20/3 m", "12 m"], 2],
 
-["Newton's Laws of Motion",
-"Two equal and opposite forces acting on the same body produce:",
-["Maximum acceleration", "Zero net force", "Double acceleration", "Infinite acceleration"], 1],
+    ["Motion in a Straight Line", "A projectile is launched vertically upward with speed 20 m/s. Taking g = 10 m/s^2, the total time of flight is:",
+     ["2 s", "3 s", "4 s", "5 s"], 2],
 
-["Newton's Laws of Motion",
-"A block is moving with constant velocity on a horizontal surface. The net force on it is:",
-["Zero", "Equal to its weight", "Equal to friction", "Maximum"], 0],
+    ["Motion in a Straight Line", "A vehicle moving at 20 m/s comes to rest under uniform retardation of 4 m/s^2. Its stopping distance is:",
+     ["25 m", "40 m", "50 m", "100 m"], 2],
 
-["Newton's Laws of Motion",
-"The coefficient of friction is defined as the ratio of:",
-["Friction to normal reaction", "Normal reaction to friction", "Mass to force", "Force to acceleration"], 0],
+    ["Motion in a Straight Line", "The position of a particle is x = 3t^2 - 2t + 1, in SI units. Its velocity at t = 2 s is:",
+     ["6 m/s", "8 m/s", "10 m/s", "12 m/s"], 2],
 
-["Newton's Laws of Motion",
-"The maximum value of static friction is called:",
-["Kinetic friction", "Limiting friction", "Rolling friction", "Viscous force"], 1],
+    ["Motion in a Straight Line", "The position of a particle is x = t^3 - 6t^2 + 9t, in SI units. At which times is its instantaneous velocity zero?",
+     ["1 s and 3 s", "2 s and 3 s", "1 s and 2 s", "0 s and 3 s"], 0],
 
-["Newton's Laws of Motion",
-"Frictional force is generally:",
-["Always independent of normal reaction", "Proportional to normal reaction", "Proportional to velocity always", "Independent of surfaces"], 1],
+    ["Motion in a Straight Line", "A car travels equal distances at speeds of 20 km/h and 30 km/h. Its average speed is:",
+     ["20 km/h", "24 km/h", "25 km/h", "30 km/h"], 1],
 
-["Newton's Laws of Motion",
-"A block of mass 10 kg is on a horizontal surface with coefficient of friction 0.2. Taking g = 10 m/s², limiting friction is:",
-["2 N", "10 N", "20 N", "50 N"], 2],
+    ["Motion in a Straight Line", "A car travels for equal time intervals at speeds of 20 km/h and 30 km/h. Its average speed is:",
+     ["20 km/h", "25 km/h", "24 km/h", "30 km/h"], 1],
 
-["Newton's Laws of Motion",
-"A block is moving on a rough horizontal surface. Kinetic friction acts:",
-["In the direction of motion", "Opposite to relative motion", "Vertically upward", "Vertically downward"], 1],
+    ["Motion in a Straight Line", "A particle completes one full lap of a circular track and returns to its starting point. Its displacement is:",
+     ["Equal to the circumference", "Equal to the diameter", "Zero", "Equal to half the circumference"], 2],
 
-["Newton's Laws of Motion",
-"A block is placed on an inclined plane of angle θ. The component of its weight parallel to the plane is:",
-["mg cosθ", "mg sinθ", "mg tanθ", "mg"], 1],
+    ["Motion in a Straight Line", "The slope of a position-time graph represents:",
+     ["Acceleration", "Velocity", "Displacement", "Speed multiplied by time"], 1],
 
-["Newton's Laws of Motion",
-"For a block on a smooth inclined plane of angle θ, its acceleration down the plane is:",
-["g", "g cosθ", "g sinθ", "g tanθ"], 2],
+    ["Motion in a Straight Line", "The area under a velocity-time graph represents:",
+     ["Acceleration", "Force", "Displacement", "Momentum"], 2],
 
-["Newton's Laws of Motion",
-"For a block resting on a smooth inclined plane, the normal reaction is:",
-["mg", "mg sinθ", "mg cosθ", "Zero"], 2],
+    ["Motion in a Straight Line", "The velocity of a particle changes uniformly from +4 m/s to -4 m/s in 4 s. Its displacement during this interval is:",
+     ["16 m", "8 m", "0 m", "-16 m"], 2],
 
-["Newton's Laws of Motion",
-"A block slides down a rough inclined plane. Friction acts:",
-["Down the plane", "Up the plane", "Vertically downward", "Horizontally"], 1],
+    ["Motion in a Straight Line", "A body starts from rest and accelerates uniformly at 4 m/s^2 for 3 s. It then moves at constant velocity for 2 s. The total displacement is:",
+     ["18 m", "24 m", "42 m", "48 m"], 2],
 
-["Newton's Laws of Motion",
-"A person standing in a lift experiences a normal reaction greater than their weight when the lift:",
-["Moves upward with constant velocity", "Moves downward with constant velocity", "Accelerates upward", "Is at rest"], 2],
+    ["Motion in a Straight Line", "A stone is dropped from rest from a height of 45 m. Taking g = 10 m/s^2, the time taken to reach the ground is approximately:",
+     ["2 s", "3 s", "4 s", "5 s"], 1],
 
-["Newton's Laws of Motion",
-"A person of mass m stands in a lift accelerating upward with acceleration a. The apparent weight is:",
-["mg", "m(g-a)", "m(g+a)", "ma"], 2],
+    ["Motion in a Straight Line", "A car moving at 10 m/s is followed by another car moving at 15 m/s. If the second car is initially 50 m behind the first and both move in the same direction at constant speeds, the catch-up time is:",
+     ["5 s", "10 s", "15 s", "20 s"], 1],
 
-["Newton's Laws of Motion",
-"A person in a lift accelerating downward with acceleration a experiences apparent weight:",
-["m(g+a)", "m(g-a)", "mg", "ma"], 1],
+    ["Motion in a Straight Line", "Two particles move in opposite directions with speeds of 8 m/s and 12 m/s. Their separation after 5 s, if they start together, is:",
+     ["20 m", "40 m", "80 m", "100 m"], 3],
 
-["Newton's Laws of Motion",
-"When a lift is freely falling, the apparent weight of a person inside is:",
-["mg", "2mg", "Zero", "mg/2"], 2],
+    ["Motion in a Straight Line", "A particle starts with initial velocity 5 m/s and accelerates uniformly at 2 m/s^2. The distance travelled during the fourth second is:",
+     ["9 m", "11 m", "12 m", "13 m"], 2],
 
-["Newton's Laws of Motion",
-"Two blocks of masses 2 kg and 3 kg are connected by a light string on a smooth horizontal surface and pulled by a 10 N force. Their common acceleration is:",
-["1 m/s²", "2 m/s²", "5 m/s²", "10 m/s²"], 1],
+    ["Motion in a Straight Line", "A ball is thrown vertically upward with speed 30 m/s. Taking g = 10 m/s^2, its displacement after 4 s is:",
+     ["40 m", "60 m", "80 m", "120 m"], 0],
 
-["Newton's Laws of Motion",
-"In an ideal Atwood machine, masses m and 2m are connected by a light inextensible string. The acceleration of the system is:",
-["g/3", "g/2", "2g/3", "g"], 0],
+    ["Motion in a Straight Line", "A particle has velocity v = 10 - 4t, in SI units. The total distance travelled from t = 0 to t = 4 s is:",
+     ["8 m", "10 m", "16 m", "17 m"], 3],
 
-["Newton's Laws of Motion",
-"In an ideal Atwood machine, the tension in the string is:",
-["Always zero", "Same throughout the string", "Different at every point", "Equal to the heavier weight"], 1],
+    ["Motion in a Straight Line", "A vehicle covers equal distances at speeds of 40 km/h and 60 km/h. Its average speed is:",
+     ["48 km/h", "50 km/h", "52 km/h", "55 km/h"], 0],
 
-["Newton's Laws of Motion",
-"A body moving in a circle with constant speed has:",
-["Zero acceleration", "Constant velocity", "Centripetal acceleration", "No force"], 2],
+    ["Motion in a Straight Line", "The position of a particle is x = 4t - t^2, in SI units. Its velocity becomes zero at:",
+     ["1 s", "2 s", "3 s", "4 s"], 1],
 
-["Newton's Laws of Motion",
-"The centripetal acceleration of a particle moving with speed v in a circle of radius r is:",
-["vr", "v/r", "v²/r", "r/v²"], 2],
+    ["Motion in a Straight Line", "A particle moves from x = 2 m to x = 9 m in 3 s. Its average velocity is:",
+     ["2 m/s", "7/3 m/s", "3 m/s", "7 m/s"], 1],
 
-["Newton's Laws of Motion",
-"The centripetal force required for circular motion is:",
-["mv/r", "mv²/r", "mr/v²", "mv²r"], 1],
-
-["Newton's Laws of Motion",
-"A car moves on a level circular road. The centripetal force is provided by:",
-["Weight", "Normal reaction", "Friction", "Engine power only"], 2],
-
-["Newton's Laws of Motion",
-"On a banked road, the horizontal component of normal reaction can provide:",
-["Weight", "Centripetal force", "Friction only", "Gravitational potential energy"], 1],
-
-["Newton's Laws of Motion",
-"A force of 100 N acts on a body of mass 20 kg. If friction opposing motion is 20 N, acceleration is:",
-["2 m/s²", "4 m/s²", "5 m/s²", "6 m/s²"], 0],
-
-["Newton's Laws of Motion",
-"A 2 kg block is acted upon by a net force of 6 N. Starting from rest, its velocity after 3 s is:",
-["3 m/s", "6 m/s", "9 m/s", "12 m/s"], 2],
-
-["Newton's Laws of Motion",
-"A 4 kg body changes its velocity from 5 m/s to 10 m/s in 2 s. The net force acting on it is:",
-["5 N", "10 N", "15 N", "20 N"], 1],
-
-["Newton's Laws of Motion",
-"A force acts on a body for a very short time and produces a large change in momentum. This is an example of:",
-["Impulse", "Power", "Work", "Potential energy"], 0],
-
-["Newton's Laws of Motion",
-"Seat belts in cars are used mainly because of:",
-["Newton's law of gravitation", "Inertia of motion", "Conservation of energy", "Buoyancy"], 1],
-
-["Newton's Laws of Motion",
-"While jumping from a boat to the shore, the boat moves backward due to:",
-["Newton's first law", "Newton's second law", "Newton's third law", "Conservation of energy"], 2],
-
+    ["Motion in a Straight Line", "A train moving at 72 km/h comes to rest uniformly in 10 s. Its stopping distance is:",
+     ["50 m", "100 m", "150 m", "200 m"], 1],
 ]
 
 # =========================================================
@@ -270,7 +195,7 @@ STUDENT_HTML = """
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NEET 2027 Physics - Newton's Laws of Motion</title>
+<title>NEET 2027 Physics - Units and Motion </title>
 
 <style>
 body{
