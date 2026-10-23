@@ -351,9 +351,9 @@ button{
 
 <div id="intro" class="card">
 
-<h1>Work, Energy & Power</h1>
+<h1>Units, Motion in a line</h1>
 
-<p><b>50 Questions • 60 Minutes • 200 Marks</b></p>
+<p><b>50 Questions • 60 Minutes • 180 Marks</b></p>
 
 <p>Correct: +4 &nbsp;&nbsp; Wrong: −1 &nbsp;&nbsp; Unattempted: 0</p>
 
