@@ -294,7 +294,9 @@ button{
 <h2 id="qno"></h2>
 
 <div class="question" id="question"></div>
-
+<img id="questionImage"
+     alt="Question diagram"
+     style="display:none; max-width:100%; max-height:460px; margin:16px 0;">
 <div id="options"></div>
 
 <div class="controls">
@@ -371,7 +373,23 @@ function render(){
         "Question " + (i+1) + " of " + Q.length;
 
     document.getElementById("question").textContent = q[1];
+const questionImages = {
+    0: "/static/q01_displacement.png",
+    8: "/static/q09_acceleration_displacement_graph.png",
+    19: "/static/q20_acceleration_time_graph.png",
+    29: "/static/q30_velocity_position_graph.png",
+    44: "/static/q45_acceleration_time_graph.png"
+};
 
+const img = document.getElementById("questionImage");
+
+if (questionImages[i]) {
+    img.src = questionImages[i];
+    img.style.display = "block";
+} else {
+    img.removeAttribute("src");
+    img.style.display = "none";
+}
     let html="";
 
     q[2].forEach((x,j)=>{
