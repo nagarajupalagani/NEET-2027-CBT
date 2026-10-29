@@ -14,195 +14,59 @@ DURATION = 60
 # =========================================================
 # QUESTIONS
 # =========================================================
-
 QUESTIONS = [
-    # UNITS AND MEASUREMENTS
-
-    ["Units & Measurements",
-     "The measured values of mass and speed are (2.00 ± 0.02) kg and (10.0 ± 0.2) m/s. The maximum percentage error in kinetic energy is:",
-     ["2%", "3%", "4%", "5%"], 2],
-
-    ["Dimensions",
-     "The dimensional formula of Planck's constant is:",
-     ["[M L T^-1]", "[M L^2 T^-1]", "[M L^2 T^-2]", "[M L^-1 T^-2]"], 1],
-
-    ["Dimensional Analysis",
-     "The speed of a wave on a stretched string depends on tension F and linear mass density μ as v = k F^a μ^b. The values of a and b are:",
-     ["a = 1/2, b = -1/2", "a = -1/2, b = 1/2", "a = 1, b = -1", "a = 1/2, b = 1/2"], 0],
-
-    ["Units & Measurements",
-     "A quantity X = a^2 b^3 / sqrt(c). The percentage errors in a, b and c are 1%, 2% and 4%, respectively. The maximum percentage error in X is:",
-     ["6%", "8%", "10%", "12%"], 3],
-
-    ["Dimensions",
-     "Which pair has the same dimensions?",
-     ["Impulse and force", "Torque and energy", "Pressure and force", "Power and momentum"], 1],
-
-    ["Units & Measurements",
-     "A length is measured using an instrument whose least count is 0.01 cm. Which reading is consistent with this precision?",
-     ["2.745 cm", "2.75 cm", "2.7 cm", "2.7450 cm"], 1],
-
-    ["Dimensions",
-     "If force F, velocity v and time t are chosen as fundamental quantities, the dimensional formula of mass is:",
-     ["[F v^-1 t]", "[F v^-1 t^-1]", "[F v t^-1]", "[F v^-2 t]"], 1],
-
-    ["Dimensional Analysis",
-     "The frequency f of a stretched string depends on its length L, tension T and linear mass density μ. Which relation is dimensionally possible?",
-     ["f = kL sqrt(T/μ)", "f = (k/L) sqrt(T/μ)", "f = k sqrt(Tμ)/L", "f = kL/sqrt(Tμ)"], 1],
-
-    ["Dimensions",
-     "The dimensional formula of surface tension is:",
-     ["[M T^-2]", "[M L T^-2]", "[M L^-1 T^-2]", "[M L^2 T^-2]"], 0],
-
-    ["Units & Measurements",
-     "Evaluate (3.42 × 1.5)/2.0 and express the result with the correct number of significant figures:",
-     ["2.565", "2.57", "2.6", "2.56"], 2],
-
-    ["Dimensions",
-     "The dimensional formula of the universal gravitational constant G is:",
-     ["[M^-1 L^3 T^-2]", "[M L^3 T^-2]", "[M^-1 L T^-2]", "[M L^-2 T^-1]"], 0],
-
-    ["Units & Measurements",
-     "If x = (5.0 ± 0.1) m and y = (2.0 ± 0.1) m, the maximum percentage error in x/y is approximately:",
-     ["2%", "5%", "7%", "10%"], 2],
-
-    ["Dimensional Analysis",
-     "Dimensional analysis shows that v^2 = u^2 + 2as is dimensionally consistent. Which conclusion is correct?",
-     ["The equation is necessarily physically correct",
-      "The equation may be dimensionally correct without being physically correct",
-      "The equation is incorrect because velocity is squared",
-      "The equation is valid only when acceleration is zero"], 1],
-
-    ["Dimensions",
-     "The product of pressure and volume has the dimensions of:",
-     ["Power", "Momentum", "Energy", "Force"], 2],
-
-    ["Units & Measurements",
-     "The side of a cube is measured as (2.00 ± 0.01) cm. The maximum percentage error in its volume is approximately:",
-     ["0.5%", "1.0%", "1.5%", "3.0%"], 3],
-
-    # MOTION IN A STRAIGHT LINE
-
-    ["Motion in a Straight Line",
-     "The position of a particle is x = 4t^2 - 2t^3, where x is in metres and t in seconds. After t = 0, when does its velocity next become zero?",
-     ["1 s", "4/3 s", "2 s", "8/3 s"], 2],
-
-    ["Motion in a Straight Line",
-     "A body starts from rest and moves with constant acceleration. The ratio of the distances covered in the 4th and 2nd seconds is:",
-     ["2", "3", "4", "7/3"], 1],
-
-    ["Motion in a Straight Line",
-     "A car moving at 20 m/s is uniformly retarded to rest in 5 s. The distance covered during the last second is:",
-     ["1 m", "2 m", "4 m", "6 m"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle covers 24 m in the first 2 s and 64 m in the next 2 s under uniform acceleration. Its initial velocity is:",
-     ["2 m/s", "4 m/s", "6 m/s", "8 m/s"], 1],
-
-    ["Motion in a Straight Line",
-     "The position of a particle is x = t^3 - 6t^2 + 9t. At which times is its instantaneous velocity zero?",
-     ["1 s and 3 s", "2 s and 3 s", "1 s and 2 s", "0 s and 3 s"], 0],
-
-    ["Motion in a Straight Line",
-     "A particle has velocity v = 12 - 3t in SI units. Its displacement from t = 0 to t = 6 s is:",
-     ["18 m", "36 m", "24 m", "54 m"], 1],
-
-    ["Motion in a Straight Line",
-     "A ball is thrown vertically upward at 30 m/s. Taking g = 10 m/s^2, the total distance travelled in the first 5 s is:",
-     ["25 m", "45 m", "65 m", "70 m"], 2],
-
-    ["Motion in a Straight Line",
-     "A train moving at 72 km/h is brought to rest uniformly in 200 m. The magnitude of its retardation is:",
-     ["0.5 m/s^2", "1 m/s^2", "2 m/s^2", "4 m/s^2"], 1],
-
-    ["Motion in a Straight Line",
-     "Car A passes a point at 10 m/s. Five seconds later, car B passes the same point at 15 m/s in the same direction. How long after B passes the point does it catch A?",
-     ["5 s", "10 s", "15 s", "20 s"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle travels half its total distance at speed v and the remaining half at speed 3v. Its average speed is:",
-     ["4v/3", "3v/2", "2v", "2v/3"], 0],
-
-    ["Motion in a Straight Line",
-     "A velocity-time graph is a straight line from (0 s, 5 m/s) to (4 s, -3 m/s). The displacement during these 4 s is:",
-     ["0 m", "4 m", "8 m", "16 m"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle starts with velocity 5 m/s and acceleration 2 m/s^2. Its displacement during the 5th second is:",
-     ["12 m", "13 m", "14 m", "15 m"], 2],
-
-    ["Motion in a Straight Line",
-     "The position of a particle is x = 2t^3 - 9t^2 + 12t. Its acceleration becomes zero at:",
-     ["1 s", "1.5 s", "2 s", "3 s"], 1],
-
-    ["Motion in a Straight Line",
-     "A stone is dropped from rest. It covers 35 m during the last second of its fall. Taking g = 10 m/s^2, the total time of fall is:",
-     ["3.5 s", "4 s", "4.5 s", "5 s"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle moves 10 m east and then 6 m west in 4 s. The magnitude of its average velocity is:",
-     ["1 m/s", "2 m/s", "4 m/s", "4 m/s"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle has initial velocity 8 m/s and acceleration -2 m/s^2. The total distance travelled in the first 6 s is:",
-     ["12 m", "16 m", "20 m", "24 m"], 2],
-
-    ["Motion in a Straight Line",
-     "A body moving with constant acceleration changes its speed from 10 m/s to 30 m/s while covering 100 m. The time taken is:",
-     ["2.5 s", "4 s", "5 s", "10 s"], 2],
-
-    ["Motion in a Straight Line",
-     "The position of a particle is x = 6t - t^2. The total distance travelled from t = 0 to t = 8 s is:",
-     ["16 m", "18 m", "20 m", "25 m"], 2],
-
-    ["Motion in a Straight Line",
-     "Two particles start simultaneously from the same point in opposite directions with speeds 6 m/s and 8 m/s. Their separation after 12 s is:",
-     ["24 m", "72 m", "96 m", "168 m"], 3],
-
-    ["Motion in a Straight Line",
-     "A bus moves initially at 15 m/s, accelerates at 1 m/s^2 for 10 s, and then continues at constant speed for 20 s. Its total distance is:",
-     ["350 m", "400 m", "450 m", "500 m"], 2],
-
-    ["Motion in a Straight Line",
-     "The position of a particle is x = 10 + 8t - 2t^2. Its maximum position is:",
-     ["16 m", "18 m", "20 m", "26 m"], 1],
-
-    ["Motion in a Straight Line",
-     "A particle covers 20 m in the first 2 s and 40 m in the next 2 s under constant acceleration. Its acceleration is:",
-     ["2.5 m/s^2", "5 m/s^2", "7.5 m/s^2", "10 m/s^2"], 1],
-
-    ["Motion in a Straight Line",
-     "A vehicle moving at 25 m/s is brought to rest uniformly in 5 s. Its displacement during the first 3 s is:",
-     ["15 m", "22.5 m", "30 m", "37.5 m"], 2],
-
-    ["Motion in a Straight Line",
-     "A particle starts from rest and accelerates at 2 m/s^2 for 5 s. It then decelerates at 1 m/s^2 until it stops. The total distance travelled is:",
-     ["50 m", "75 m", "100 m", "125 m"], 2],
-
-    ["Motion in a Straight Line",
-     "A particle has velocity v = 4t - 12. The total distance travelled from t = 0 to t = 5 s is:",
-     ["10 m", "13 m", "17 m", "25 m"], 2],
-
-    ["Motion in a Straight Line",
-     "A particle has velocity v = 3t^2 - 12t + 9. During which interval is its velocity negative?",
-     ["0 < t < 1", "1 < t < 3", "t > 3", "It is never negative"], 1],
-
-    ["Motion in a Straight Line",
-     "A car travels one-third of a journey at 30 km/h and the remaining two-thirds at 60 km/h. Its average speed is:",
-     ["40 km/h", "45 km/h", "48 km/h", "50 km/h"], 2],
-
-    ["Motion in a Straight Line",
-     "A particle moves from x = -4 m to x = 8 m and then to x = 2 m in 6 s. Its average speed is:",
-     ["1 m/s", "2 m/s", "3 m/s", "4 m/s"], 2],
-
-    ["Motion in a Straight Line",
-     "A ball is thrown vertically upward from the ground at 40 m/s. Taking g = 10 m/s^2, its displacement during the 6th second is:",
-     ["-5 m", "0 m", "5 m", "10 m"], 0],
-
-    ["Motion in a Straight Line",
-     "A particle starts from rest and moves with acceleration a = 4t in SI units. Its velocity at t = 3 s is:",
-     ["6 m/s", "18 m/s", "12 m/s", "36 m/s"], 1],
+    ['Units & Measurements', 'A car moves from P to T along the path shown: 8 km east, 4 km south, 4 km west, then 1 km north. Find its net displacement.', ['2 km, 60° south of west', '5 km, 37° south of east', '6 km, 53° east of south', '10 km, 45° east of south'], 1],
+    ['Motion in a Straight Line', 'A body travels at 4 m/s during half the total time and at 6 m/s during the remaining half. Its average speed is', ['5 m/s', '4 m/s', '6 m/s', '1 m/s'], 0],
+    ['Motion in a Straight Line', 'The coordinates of a particle are x = 2t² and y = 3t (SI units). Find the magnitudes of velocity and acceleration at t = 1 s.', ['5 m/s, 4 m/s²', '6 m/s, 2 m/s²', '11 m/s, 12 m/s²', '2 m/s, 14 m/s²'], 0],
+    ['Motion in a Straight Line', 'A particle is projected vertically upward at 25 m/s. Taking g = 10 m/s², its displacement during the third second is', ['30 m', 'Distance covered is 30 m', 'Distance covered is 2.5 m', '2.5 m'], 2],
+    ['Units & Measurements', 'The number of significant figures in 0.005 is', ['1', '4', '3', 'Infinite'], 0],
+    ['Motion in a Straight Line', 'The position of a particle is s = 2t³ + 3t² + 2t + 8. At what time is its acceleration zero?', ['0.5 s', '2 s', '1 s', 'Acceleration can never be zero'], 3],
+    ['Units & Measurements', 'If momentum P, area A and time T are fundamental quantities, the dimensional formula of energy is', ['[P A⁻¹ T]', '[P² A T]', '[P A⁻¹ᐟ² T]', '[P A¹ᐟ² T⁻¹]'], 3],
+    ['Units & Measurements', 'For significant figures: (I) All non-zero digits are significant. (II) Zeros between two non-zero digits are significant. Choose the correct option.', ['Only I is correct', 'Only II is correct', 'Both I and II are correct', 'Both I and II are incorrect'], 2],
+    ['Motion in a Straight Line', 'Velocity depends on displacement as v = Ks², where K is a positive constant. The acceleration-versus-displacement graph is', ['A straight line increasing from the origin', 'An increasing curve that gradually flattens', 'An increasing curve that becomes steeper', 'A decreasing curve'], 2],
+    ['Motion in a Straight Line', "A ball is released from rest from a building and travels 25 m in the last second before impact. Taking g = 10 m/s², the building's height is", ['45 m', '60 m', '50 m', '25 m'], 0],
+    ['Motion in a Straight Line', "A balloon starts from rest and accelerates upward at 4 m/s². A coin is dropped from it 5 s after the start. The coin's initial velocity at release is", ['Zero', '20 m/s upward', '30 m/s upward', '45 m/s upward'], 1],
+    ['Motion in a Plane', 'The trajectory is y = √3 x − ½x². Taking g = 10 m/s², the angle of projection is', ['30°', '45°', '60°', '75°'], 2],
+    ['Vectors', 'A = i + j + k and B = i + j + 2k. Find |A − 2B|.', ['√3', '√17', '√11', '√7'], 2],
+    ['Units & Measurements', 'The units of length, mass and time are 1 cm, 100 g and 10 s. The unit of kinetic energy in this system is', ['0.1 erg', '10 erg', '1 erg', '20 erg'], 2],
+    ['Units & Measurements', 'Distance s = (100 ± 0.1) m and time t = (10 ± 0.1) s. The average speed with maximum permissible error is', ['(10 ± 0.11) m/s', '(1000 ± 11) m/s', '(10 ± 1.1) m/s', '(100 ± 0.2) m/s'], 0],
+    ['Units & Measurements', 'The number of significant zeroes in 2.0500 is', ['1', '5', '3', '6'], 2],
+    ['Motion in a Straight Line', 'A particle starts from rest and v = √(αx), where α is a positive constant. The distance travelled in time t is', ['(1/3)αt²', '(1/4)αt²', '(3/8)αt²', 'αt/2'], 1],
+    ['Motion in a Plane', 'A ground-to-ground projectile has time of flight 40 s and horizontal range 800 m. Its horizontal velocity component is', ['20 m/s', '10 m/s', '40 m/s', '20√3 m/s'], 0],
+    ['Motion in a Straight Line', 'For an object falling from rest in a viscous medium, a = α − βv. Its initial acceleration is', ['β/α', 'βα', 'α/β', 'α'], 3],
+    ['Motion in a Straight Line', 'A particle starts from rest. Its acceleration is +2 m/s² for 2 s and −2 m/s² for the next 4 s. Choose the correct speed-time description.', ['Speed rises to 4 m/s at 2 s, then falls linearly to zero at 6 s', 'Speed rises to 4 m/s at 2 s, falls to zero at 4 s, then rises to 4 m/s at 6 s', 'Speed increases curvilinearly throughout', 'Speed rises smoothly with an S-shaped curve'], 1],
+    ['Units & Measurements', 'In vernier callipers, n VSD coincide with (n − 2) MSD. If 1 MSD = a mm, the least count is', ['a/n mm', '2a/n mm', '2a/(n − 2) mm', 'a/(n − 2) mm'], 1],
+    ['Motion in a Straight Line', 'A particle starts from rest with constant acceleration 2 m/s². The distance travelled during the fifth second is', ['1.25 m', '2.25 m', '9 m', '12 m'], 2],
+    ['Motion in a Plane', 'A projectile is launched with initial velocity (i + 2j) m/s. Taking g = 10 m/s², its trajectory is', ['y = 2x − 5x²', 'y = x − 5x²', '4y = 2x − 5x²', 'y = 2x − 25x²'], 0],
+    ['Dimensions', 'Which physical quantity has the same dimensions as work?', ["Young's modulus", 'Torque', 'Angular momentum', 'Surface tension'], 1],
+    ['Motion in a Plane', 'A ball is projected vertically upward at 12 m/s with constant-magnitude air drag. It takes 1 s to reach maximum height. The maximum height is (g = 10 m/s²).', ['7.2 m', '6 m', '8.3 m', '5 m'], 1],
+    ['Motion in a Straight Line', 'The signed area under an acceleration-time graph gives', ['Velocity at any instant', 'Change in velocity', 'Distance travelled', 'Displacement travelled'], 1],
+    ['Motion in a Straight Line', 'Which statement is true?', ['If displacement is zero, distance must be zero', 'If distance is zero, displacement must be zero', 'Speed can be positive, negative or zero', 'Magnitude of displacement is always greater than or equal to distance'], 1],
+    ['Circular Motion', 'Which statement is incorrect for non-uniform circular motion?', ['Speed changes continuously', 'Velocity remains constant', 'Tangential acceleration is non-zero', 'Acceleration changes continuously'], 1],
+    ['Relative Motion', 'The path of a projectile as seen by an observer moving with another projectile (both under gravity) is generally a', ['Straight line', 'Parabola', 'Ellipse', 'Circle'], 0],
+    ['Motion in a Straight Line', 'On a velocity-position graph, velocity rises linearly from 10 m/s at x = 2 m to 20 m/s at x = 4 m. Find acceleration in this interval.', ['25 m/s²', '30 m/s²', '75 m/s²', '40 m/s²'], 2],
+    ['Motion in a Straight Line', 'The acceleration of a moving body is equal to the', ['Slope of distance-time graph', 'Slope of acceleration-time graph', 'Slope of velocity-time graph', 'Area under velocity-time graph'], 2],
+    ['Projectile Motion', 'A projectile has maximum horizontal range 500 m. Its maximum height when launched for maximum range is', ['200 m', '500 m', '125 m', '1000 m'], 2],
+    ['Projectile Motion', "A projectile's horizontal range is n times its maximum height. The angle θ satisfies", ['θ = tan⁻¹(2/n)', 'θ = tan⁻¹(4/n)', 'θ = tan⁻¹(3n/2)', 'θ = tan⁻¹(5/n)'], 1],
+    ['Projectile Motion', 'The trajectory is y = √3 x − 5x². Its time of flight is', ['√2/5 s', '√3/2 s', '√5/2 s', '√3/5 s'], 3],
+    ['Circular Motion', 'Which statement is incorrect for uniform circular motion?', ['Velocity is not constant', 'Speed is constant', 'Kinetic energy is constant', 'Angular speed is not constant'], 3],
+    ['Relative Motion', 'Three people at the vertices of an equilateral triangle of side a move at speed v, each always facing the next person. They meet after', ['2a/v', '3a/v', '2a/(3v)', '3a/(2v)'], 2],
+    ['Units & Measurements', 'If Z = A³√B/(CD²), and percentage errors in A, B, C and D are 1%, 2%, 3% and 1%, respectively, the percentage error in Z is', ['2%', '9%', '12%', '5%'], 1],
+    ['Relative Motion', "A river is 1 km wide and flows at 1 km/h. A swimmer's speed in still water is 2 km/h. For the shortest crossing path, the crossing time is", ['½ h', '1 h', '1/√3 h', '2/√3 h'], 2],
+    ['Projectile Motion', 'A particle is projected from the ground with velocity (i + 3j) m/s. Its velocity when it returns to the ground is', ['(i + 3j) m/s', '2(i + 3j) m/s', '2(i − 3j) m/s', '(i − 3j) m/s'], 3],
+    ['Vectors', 'The angle made by A = 3i + 4j + 5k with the z-axis is', ['cos⁻¹(3/(5√2))', 'cos⁻¹(4/(5√2))', '45°', '60°'], 2],
+    ['SHM', 'For SHM, E = K mˣ nʸ Aᶻ, where K is dimensionless, m is mass, n frequency and A amplitude. Find 2x + y + z.', ['4', '22', '6', '9'], 2],
+    ['Motion in a Straight Line', 'A particle has non-zero acceleration', ['Only if velocity direction changes', 'Only if velocity magnitude changes', 'If velocity direction or magnitude or both change', 'Only if neither direction nor magnitude changes'], 2],
+    ['Units & Measurements', 'The dimensional formula of acceleration is', ['[M L T⁻¹]', '[M⁰ L T⁻²]', '[M⁰ L⁰ T⁻²]', '[M² L⁻² T³]'], 1],
+    ['Motion in a Straight Line', 'A ball is thrown vertically upward from the ground at 40 m/s while another is thrown downward from a height of 45 m at 50 m/s. They collide after', ['2 s', '½ s', '¼ s', '4 s'], 1],
+    ['Motion in a Straight Line', 'Acceleration is 5 m/s² from t = 0 to 2 s, then decreases linearly to zero at t = 6 s. If initial velocity is 3 m/s, velocity at 6 s is', ['23 m/s', '13 m/s', '20 m/s', '10 m/s'], 0],
+    ['Free Fall', 'A stone falls freely. Distances covered in the first 2 s, the next 2 s and the following 2 s are in the ratio', ['1 : 2 : 3', '1 : 3 : 5', '1 : 1 : 1', '2 : 3 : 4'], 1],
+    ['Motion in a Straight Line', 'Position x = 4t² − 3t + 5 (metres). Find speed at t = 2 s.', ['8 m/s', '2 m/s', '13 m/s', 'Zero'], 2],
+    ['Free Fall', 'Two bodies of masses 5 kg and 10 kg are dropped from the same height. The ratio of their times to reach the ground is', ['1/2', '5/4', '12/5', '1'], 3],
+    ['Vertical Motion', 'A particle is projected vertically upward at 57 m/s. Taking g = 10 m/s², its displacement during the sixth second is', ['2.9 m', '2 m', '1.2 m', '4.2 m'], 1],
+    ['Vertical Motion', 'At the maximum height of a body thrown vertically upward', ['Velocity is non-zero but acceleration is zero', 'Acceleration is non-zero but velocity is zero', 'Both acceleration and velocity are zero', 'Both acceleration and velocity are non-zero'], 1],
 ]
+
 # =========================================================
 # DATABASE
 # =========================================================
