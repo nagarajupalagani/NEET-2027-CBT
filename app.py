@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "change-this-secret-key")
 
 DB_NAME = "results.db"
-DURATION = 60
+DURATION = 70
 
 
 # =========================================================
@@ -110,7 +110,7 @@ STUDENT_HTML = """
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NEET 2027 Physics - Units and Motion </title>
+<title>NEET 2027 Physics - AIATS</title>
 
 <style>
 body{
@@ -258,8 +258,8 @@ button{
 <body>
 
 <header>
-<div>NEET 2027 PHYSICS • TEST 03</div>
-<div class="timer" id="timer">60:00</div>
+<div>NEET 2027 PHYSICS • TEST 04</div>
+<div class="timer" id="timer">70:00</div>
 </header>
 
 <div class="container">
@@ -268,7 +268,7 @@ button{
 
 <h1>Units, Motion in a line</h1>
 
-<p><b>45 Questions • 60 Minutes • 180 Marks</b></p>
+<p><b>50 Questions • 70 Minutes • 200 Marks</b></p>
 
 <p>Correct: +4 &nbsp;&nbsp; Wrong: −1 &nbsp;&nbsp; Unattempted: 0</p>
 
@@ -640,7 +640,7 @@ button{
 
 <h1>Test Submitted Successfully</h1>
 
-<h2>NEET 2027 PHYSICS • TEST 01</h2>
+<h2>NEET 2027 PHYSICS • TEST 04</h2>
 
 <p><b>Student:</b> {{ row["name"] }}</p>
 
@@ -987,7 +987,7 @@ a{
 
 <h1>Teacher Dashboard</h1>
 
-<h2>NEET 2027 PHYSICS • TEST 01</h2>
+<h2>NEET 2027 PHYSICS • TEST 04</h2>
 
 </div>
 
