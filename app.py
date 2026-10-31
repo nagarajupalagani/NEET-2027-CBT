@@ -646,7 +646,7 @@ button{
 
 <p><b>Roll Number:</b> {{ row["roll"] }}</p>
 
-<h2>Score: {{ row["score"] }}/180</h2>
+<h2>Score: {{ row["score"] }}/200</h2>
 
 <p>
 Correct: {{ row["correct"] }}
