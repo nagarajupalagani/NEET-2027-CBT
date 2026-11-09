@@ -15,58 +15,153 @@ DURATION = 70
 # QUESTIONS
 # =========================================================
 QUESTIONS = [
-    ['Units & Measurements', 'A car moves from P to T along the path shown: 8 km east, 4 km south, 4 km west, then 1 km north. Find its net displacement.', ['2 km, 60° south of west', '5 km, 37° south of east', '6 km, 53° east of south', '10 km, 45° east of south'], 1],
-    ['Motion in a Straight Line', 'A body travels at 4 m/s during half the total time and at 6 m/s during the remaining half. Its average speed is', ['5 m/s', '4 m/s', '6 m/s', '1 m/s'], 0],
-    ['Motion in a Straight Line', 'The coordinates of a particle are x = 2t² and y = 3t (SI units). Find the magnitudes of velocity and acceleration at t = 1 s.', ['5 m/s, 4 m/s²', '6 m/s, 2 m/s²', '11 m/s, 12 m/s²', '2 m/s, 14 m/s²'], 0],
-    ['Motion in a Straight Line', 'A particle is projected vertically upward at 25 m/s. Taking g = 10 m/s², its displacement during the third second is', ['30 m', 'Distance covered is 30 m', 'Distance covered is 2.5 m', '2.5 m'], 2],
-    ['Units & Measurements', 'The number of significant figures in 0.005 is', ['1', '4', '3', 'Infinite'], 0],
-    ['Motion in a Straight Line', 'The position of a particle is s = 2t³ + 3t² + 2t + 8. At what time is its acceleration zero?', ['0.5 s', '2 s', '1 s', 'Acceleration can never be zero'], 3],
-    ['Units & Measurements', 'If momentum P, area A and time T are fundamental quantities, the dimensional formula of energy is', ['[P A⁻¹ T]', '[P² A T]', '[P A⁻¹ᐟ² T]', '[P A¹ᐟ² T⁻¹]'], 3],
-    ['Units & Measurements', 'For significant figures: (I) All non-zero digits are significant. (II) Zeros between two non-zero digits are significant. Choose the correct option.', ['Only I is correct', 'Only II is correct', 'Both I and II are correct', 'Both I and II are incorrect'], 2],
-    ['Motion in a Straight Line', 'Velocity depends on displacement as v = Ks², where K is a positive constant. The acceleration-versus-displacement graph is', ['A straight line increasing from the origin', 'An increasing curve that gradually flattens', 'An increasing curve that becomes steeper', 'A decreasing curve'], 2],
-    ['Motion in a Straight Line', "A ball is released from rest from a building and travels 25 m in the last second before impact. Taking g = 10 m/s², the building's height is", ['45 m', '60 m', '50 m', '25 m'], 0],
-    ['Motion in a Straight Line', "A balloon starts from rest and accelerates upward at 4 m/s². A coin is dropped from it 5 s after the start. The coin's initial velocity at release is", ['Zero', '20 m/s upward', '30 m/s upward', '45 m/s upward'], 1],
-    ['Motion in a Plane', 'The trajectory is y = √3 x − ½x². Taking g = 10 m/s², the angle of projection is', ['30°', '45°', '60°', '75°'], 2],
-    ['Vectors', 'A = i + j + k and B = i + j + 2k. Find |A − 2B|.', ['√3', '√17', '√11', '√7'], 2],
-    ['Units & Measurements', 'The units of length, mass and time are 1 cm, 100 g and 10 s. The unit of kinetic energy in this system is', ['0.1 erg', '10 erg', '1 erg', '20 erg'], 2],
-    ['Units & Measurements', 'Distance s = (100 ± 0.1) m and time t = (10 ± 0.1) s. The average speed with maximum permissible error is', ['(10 ± 0.11) m/s', '(1000 ± 11) m/s', '(10 ± 1.1) m/s', '(100 ± 0.2) m/s'], 0],
-    ['Units & Measurements', 'The number of significant zeroes in 2.0500 is', ['1', '5', '3', '6'], 2],
-    ['Motion in a Straight Line', 'A particle starts from rest and v = √(αx), where α is a positive constant. The distance travelled in time t is', ['(1/3)αt²', '(1/4)αt²', '(3/8)αt²', 'αt/2'], 1],
-    ['Motion in a Plane', 'A ground-to-ground projectile has time of flight 40 s and horizontal range 800 m. Its horizontal velocity component is', ['20 m/s', '10 m/s', '40 m/s', '20√3 m/s'], 0],
-    ['Motion in a Straight Line', 'For an object falling from rest in a viscous medium, a = α − βv. Its initial acceleration is', ['β/α', 'βα', 'α/β', 'α'], 3],
-    ['Motion in a Straight Line', 'A particle starts from rest. Its acceleration is +2 m/s² for 2 s and −2 m/s² for the next 4 s. Choose the correct speed-time description.', ['Speed rises to 4 m/s at 2 s, then falls linearly to zero at 6 s', 'Speed rises to 4 m/s at 2 s, falls to zero at 4 s, then rises to 4 m/s at 6 s', 'Speed increases curvilinearly throughout', 'Speed rises smoothly with an S-shaped curve'], 1],
-    ['Units & Measurements', 'In vernier callipers, n VSD coincide with (n − 2) MSD. If 1 MSD = a mm, the least count is', ['a/n mm', '2a/n mm', '2a/(n − 2) mm', 'a/(n − 2) mm'], 1],
-    ['Motion in a Straight Line', 'A particle starts from rest with constant acceleration 2 m/s². The distance travelled during the fifth second is', ['1.25 m', '2.25 m', '9 m', '12 m'], 2],
-    ['Motion in a Plane', 'A projectile is launched with initial velocity (i + 2j) m/s. Taking g = 10 m/s², its trajectory is', ['y = 2x − 5x²', 'y = x − 5x²', '4y = 2x − 5x²', 'y = 2x − 25x²'], 0],
-    ['Dimensions', 'Which physical quantity has the same dimensions as work?', ["Young's modulus", 'Torque', 'Angular momentum', 'Surface tension'], 1],
-    ['Motion in a Plane', 'A ball is projected vertically upward at 12 m/s with constant-magnitude air drag. It takes 1 s to reach maximum height. The maximum height is (g = 10 m/s²).', ['7.2 m', '6 m', '8.3 m', '5 m'], 1],
-    ['Motion in a Straight Line', 'The signed area under an acceleration-time graph gives', ['Velocity at any instant', 'Change in velocity', 'Distance travelled', 'Displacement travelled'], 1],
-    ['Motion in a Straight Line', 'Which statement is true?', ['If displacement is zero, distance must be zero', 'If distance is zero, displacement must be zero', 'Speed can be positive, negative or zero', 'Magnitude of displacement is always greater than or equal to distance'], 1],
-    ['Circular Motion', 'Which statement is incorrect for non-uniform circular motion?', ['Speed changes continuously', 'Velocity remains constant', 'Tangential acceleration is non-zero', 'Acceleration changes continuously'], 1],
-    ['Relative Motion', 'The path of a projectile as seen by an observer moving with another projectile (both under gravity) is generally a', ['Straight line', 'Parabola', 'Ellipse', 'Circle'], 0],
-    ['Motion in a Straight Line', 'On a velocity-position graph, velocity rises linearly from 10 m/s at x = 2 m to 20 m/s at x = 4 m. Find acceleration in this interval.', ['25 m/s²', '30 m/s²', '75 m/s²', '40 m/s²'], 2],
-    ['Motion in a Straight Line', 'The acceleration of a moving body is equal to the', ['Slope of distance-time graph', 'Slope of acceleration-time graph', 'Slope of velocity-time graph', 'Area under velocity-time graph'], 2],
-    ['Projectile Motion', 'A projectile has maximum horizontal range 500 m. Its maximum height when launched for maximum range is', ['200 m', '500 m', '125 m', '1000 m'], 2],
-    ['Projectile Motion', "A projectile's horizontal range is n times its maximum height. The angle θ satisfies", ['θ = tan⁻¹(2/n)', 'θ = tan⁻¹(4/n)', 'θ = tan⁻¹(3n/2)', 'θ = tan⁻¹(5/n)'], 1],
-    ['Projectile Motion', 'The trajectory is y = √3 x − 5x². Its time of flight is', ['√2/5 s', '√3/2 s', '√5/2 s', '√3/5 s'], 3],
-    ['Circular Motion', 'Which statement is incorrect for uniform circular motion?', ['Velocity is not constant', 'Speed is constant', 'Kinetic energy is constant', 'Angular speed is not constant'], 3],
-    ['Relative Motion', 'Three people at the vertices of an equilateral triangle of side a move at speed v, each always facing the next person. They meet after', ['2a/v', '3a/v', '2a/(3v)', '3a/(2v)'], 2],
-    ['Units & Measurements', 'If Z = A³√B/(CD²), and percentage errors in A, B, C and D are 1%, 2%, 3% and 1%, respectively, the percentage error in Z is', ['2%', '9%', '12%', '5%'], 1],
-    ['Relative Motion', "A river is 1 km wide and flows at 1 km/h. A swimmer's speed in still water is 2 km/h. For the shortest crossing path, the crossing time is", ['½ h', '1 h', '1/√3 h', '2/√3 h'], 2],
-    ['Projectile Motion', 'A particle is projected from the ground with velocity (i + 3j) m/s. Its velocity when it returns to the ground is', ['(i + 3j) m/s', '2(i + 3j) m/s', '2(i − 3j) m/s', '(i − 3j) m/s'], 3],
-    ['Vectors', 'The angle made by A = 3i + 4j + 5k with the z-axis is', ['cos⁻¹(3/(5√2))', 'cos⁻¹(4/(5√2))', '45°', '60°'], 2],
-    ['SHM', 'For SHM, E = K mˣ nʸ Aᶻ, where K is dimensionless, m is mass, n frequency and A amplitude. Find 2x + y + z.', ['4', '22', '6', '9'], 2],
-    ['Motion in a Straight Line', 'A particle has non-zero acceleration', ['Only if velocity direction changes', 'Only if velocity magnitude changes', 'If velocity direction or magnitude or both change', 'Only if neither direction nor magnitude changes'], 2],
-    ['Units & Measurements', 'The dimensional formula of acceleration is', ['[M L T⁻¹]', '[M⁰ L T⁻²]', '[M⁰ L⁰ T⁻²]', '[M² L⁻² T³]'], 1],
-    ['Motion in a Straight Line', 'A ball is thrown vertically upward from the ground at 40 m/s while another is thrown downward from a height of 45 m at 50 m/s. They collide after', ['2 s', '½ s', '¼ s', '4 s'], 1],
-    ['Motion in a Straight Line', 'Acceleration is 5 m/s² from t = 0 to 2 s, then decreases linearly to zero at t = 6 s. If initial velocity is 3 m/s, velocity at 6 s is', ['23 m/s', '13 m/s', '20 m/s', '10 m/s'], 0],
-    ['Free Fall', 'A stone falls freely. Distances covered in the first 2 s, the next 2 s and the following 2 s are in the ratio', ['1 : 2 : 3', '1 : 3 : 5', '1 : 1 : 1', '2 : 3 : 4'], 1],
-    ['Motion in a Straight Line', 'Position x = 4t² − 3t + 5 (metres). Find speed at t = 2 s.', ['8 m/s', '2 m/s', '13 m/s', 'Zero'], 2],
-    ['Free Fall', 'Two bodies of masses 5 kg and 10 kg are dropped from the same height. The ratio of their times to reach the ground is', ['1/2', '5/4', '12/5', '1'], 3],
-    ['Vertical Motion', 'A particle is projected vertically upward at 57 m/s. Taking g = 10 m/s², its displacement during the sixth second is', ['2.9 m', '2 m', '1.2 m', '4.2 m'], 1],
-    ['Vertical Motion', 'At the maximum height of a body thrown vertically upward', ['Velocity is non-zero but acceleration is zero', 'Acceleration is non-zero but velocity is zero', 'Both acceleration and velocity are zero', 'Both acceleration and velocity are non-zero'], 1],
-]
+    ["Gravitation", "What is the value of acceleration due to gravity at a height equal to half the radius of the Earth from its surface?",
+     ["4.4 m/s^2", "6.5 m/s^2", "Zero", "9.8 m/s^2"], 0],
 
+    ["Gravitation", "When a planet revolves around the Sun, in general, for the planet:",
+     ["Linear momentum and linear velocity are constant.", "Linear momentum and areal velocity are constant.", "Kinetic and potential energy are constant.", "Angular momentum about the Sun and areal velocity are constant."], 3],
+
+    ["Gravitation", "Electrical as well as gravitational effects can be thought to be caused by fields. Which statement is true for an electrical or gravitational field?",
+     ["A gravitational or electric field does not exist in the space around an object.", "Fields are useful for understanding forces acting through a distance.", "There is no way to verify the existence of a force field since it is just a concept.", "The field concept is often used to describe contact forces."], 1],
+
+    ["Gravitation", "Two bodies of mass 8 kg are placed at vertices A and B of an equilateral triangle ABC. A third body of mass 2 kg is placed at centroid G. If AG = BG = CG = 1 m, where should a fourth body of mass 4 kg be placed so that the resultant force on the 2 kg body is zero?",
+     ["At C", "At a point P on line CG such that PG = 1/sqrt(2) m", "At a point P on line CG such that PG = 0.5 m", "At a point P on line CG such that PG = 2 m"], 1],
+
+    ["Gravitation", "The value of acceleration due to gravity at a height of 10 km above Earth's surface is x. At what depth inside Earth will g have the same value x?",
+     ["5 km", "20 km", "10 km", "15 km"], 1],
+
+    ["Gravitation", "A satellite orbiting close to Earth has kinetic energy K. The minimum extra kinetic energy required for it to just overcome Earth's gravitational pull is:",
+     ["K", "2K", "sqrt(3)K", "2sqrt(2)K"], 0],
+
+    ["Gravitation", "A space station is at a height equal to Earth's radius. If v_E is the escape velocity at Earth's surface, the escape velocity at the space station is:",
+     ["1/2 v_E", "1/4 v_E", "1/sqrt(2) v_E", "1/sqrt(3) v_E"], 2],
+
+    ["Gravitation", "The value of acceleration due to gravity at a depth of 1600 km is:",
+     ["4.9 m/s^2", "9.8 m/s^2", "7.35 m/s^2", "19.6 m/s^2"], 2],
+
+    ["Gravitation", "A mass m on Earth's surface is shifted to a height equal to Earth's radius. If R is Earth's radius and M its mass, the work done is:",
+     ["mgR/2", "mgR", "2mgR", "mgR/4"], 0],
+
+    ["Gravitation", "An astronaut of mass m is on a satellite orbiting Earth at a height h above the surface. Earth's radius is R and mass is M. The gravitational pull F_G on the astronaut is:",
+     ["Zero since the astronaut feels weightless", "0 < F_G < GMm/R^2", "GMm/(R+h)^2 < F_G < GMm/R^2", "F_G = GMm/(R+h)^2"], 3],
+
+    ["Gravitation", "A body of mass m is taken from Earth's surface to a height equal to twice Earth's radius R_e. The increase in potential energy is (g is surface gravity):",
+     ["(1/2)mgR_e", "(3/4)mgR_e", "(1/4)mgR_e", "(2/3)mgR_e"], 3],
+
+    ["Gravitation", "Moving from a point 16 km below Earth's surface to a point 16 km above it, the approximate percentage change in g is (R_E = 6400 km):",
+     ["0.12%", "0.25%", "0.50%", "0.75%"], 1],
+
+    ["Gravitation", "At what height h, in terms of Earth's radius R, does acceleration due to gravity become g/9?",
+     ["sqrt(3)R", "2sqrt(2)R", "2R", "4R"], 2],
+
+    ["Gravitation", "A 1 kg body falls to Earth from infinity. Its speed and kinetic energy on reaching Earth's surface are (R = 6400 km, g = 9.8 m/s^2):",
+     ["11.2 km/s; 6.27 x 10^7 J", "11.2 km/s; 12.54 x 10^7 J", "8.8 km/s; 6.27 x 10^7 J", "8.8 km/s; 12.54 x 10^7 J"], 0],
+
+    ["Gravitation", "The escape velocity from spherical planet A is 10 km/s. Planet B has 10% of A's density and 10% of A's radius. The escape velocity from B is:",
+     ["1000 m/s", "200sqrt(5) m/s", "1000sqrt(2) m/s", "100sqrt(10) m/s"], 3],
+
+    ["Gravitation", "Earth has 8 times the mass and 2 times the radius of a planet. If Earth's escape velocity is 11.2 km/s, the planet's escape velocity is:",
+     ["8.4 km/s", "11.2 km/s", "5.6 km/s", "2.8 km/s"], 2],
+
+    ["Gravitation", "A satellite orbits Earth at a distance 9 times closer to Earth than the Moon. If the Moon's period is 27 days, the satellite's period is:",
+     ["3 days", "27 days", "81 days", "1 day"], 3],
+
+    ["Gravitation", "An astronaut takes a ball of mass m from Earth's surface and places it in a circular orbit at altitude 318.5 km. The change in total mechanical energy is x times (GMm/2R_E). Find x. (R_E = 6370 km.)",
+     ["12", "11", "9", "10"], 1],
+
+    ["Gravitation", "Two satellites A and B orbit a planet in circular orbits of radii 4R and R. If the speed of A is v, the speed of B is:",
+     ["6v", "(3/4)v", "3v", "12v"], 0],
+
+    ["Gravitation", "Assuming Earth has uniform density, a body weighs 300 N on its surface. Its weight at a depth R/4 is:",
+     ["75 N", "375 N", "300 N", "225 N"], 3],
+
+    ["Gravitation", "The kinetic energy required to project a body of mass m from Earth's surface to infinity is:",
+     ["(1/2)mgR_E", "4mgR_E", "mgR_E", "2mgR_E"], 2],
+
+    ["Gravitation", "A satellite revolving in a stationary orbit around a planet has period 6 hours. The planet's mass is one-fourth Earth's mass. If Earth's geostationary orbital radius is 4.2 x 10^4 km, the satellite's orbital radius is:",
+     ["1.68 x 10^5 km", "1.4 x 10^4 km", "8.4 x 10^4 km", "1.05 x 10^4 km"], 3],
+
+    ["Gravitation", "A 90 kg body placed at a distance 2R above Earth's surface experiences a gravitational pull (R is Earth's radius, g = 10 m/s^2):",
+     ["300 N", "225 N", "100 N", "120 N"], 2],
+
+    ["Gravitation", "A light planet revolves around a massive star in a circular orbit of radius R and period T. If the attractive force is proportional to R^(-3/2), then:",
+     ["T^2 is proportional to R^(7/2)", "T^2 is proportional to R^3", "T^2 is proportional to R^(5/2)", "T^2 is proportional to R^(3/2)"], 2],
+
+    ["Gravitation", "The mass of the Moon is 1/144 times the mass of a planet and its diameter is 1/16 times the planet's diameter. If the planet's escape velocity is v, the Moon's escape velocity is:",
+     ["v/4", "v/6", "v/12", "v/3"], 3],
+
+    ["Gravitation", "Earth's escape velocity is 11.2 km/s. A planet has one-third Earth's radius and one-sixth Earth's mass. Its escape velocity is:",
+     ["7.9 km/s", "8.4 km/s", "4.2 km/s", "11.2 km/s"], 0],
+
+    ["Gravitation", "At a point above Earth's surface, gravitational potential is -5.12 x 10^7 J/kg and g is 6.4 m/s^2. If Earth's mean radius is 6400 km, the height of the point is:",
+     ["1600 km", "1200 km", "540 km", "1000 km"], 0],
+
+    ["Gravitation", "A planet takes 200 days to complete one revolution around the Sun. If its orbital distance is reduced to one-fourth, its new period is:",
+     ["20 days", "50 days", "100 days", "25 days"], 3],
+
+    ["Gravitation", "If Earth's diameter is reduced to half its original value while its mass remains constant, the surface acceleration due to gravity becomes:",
+     ["g/4", "2g", "g/2", "4g"], 3],
+
+    ["Gravitation", "Two identical particles, each of mass m, move in a circle of radius a under their mutual gravitational attraction. The angular speed of each particle is:",
+     ["sqrt(Gm/(2a^3))", "sqrt(Gm/a^3)", "sqrt(Gm/(8a^3))", "sqrt(Gm/(4a^3))"], 3],
+
+    ["Gravitation", "A body is released from rest at a height equal to Earth's radius R above the surface. Its speed when it strikes Earth is:",
+     ["sqrt(gR/2)", "sqrt(4gR)", "sqrt(2gR)", "sqrt(gR)"], 3],
+
+    ["Gravitation", "Two planets A and B have radii R and 1.5R and densities rho and rho/2, respectively. The ratio of surface gravity g_B : g_A is:",
+     ["2:1", "2:3", "4:3", "3:4"], 3],
+
+    ["Gravitation", "A planet has mass 9M_E and radius 4R_E. If Earth's escape velocity is 11.2 km/s, the planet's escape velocity is:",
+     ["33.6 km/s", "11.2 km/s", "16.8 km/s", "67.2 km/s"], 2],
+
+    ["Gravitation", "A planet has 16 times Earth's mass and 4 times Earth's radius. The ratio of its escape velocity to Earth's escape velocity is:",
+     ["1:4", "1:sqrt(2)", "4:1", "2:1"], 3],
+
+    ["Gravitation", "Two satellites A and B move around Earth in the same orbit. The mass of A is twice the mass of B. Which quantity is the same for both?",
+     ["Potential energy", "Kinetic energy", "Total energy", "Speed"], 3],
+
+    ["Gravitation", "Planets A and B have radii R and 4R and densities rho and rho/3, respectively. The ratio of their surface accelerations g_A : g_B is:",
+     ["3:16", "4:3", "1:16", "3:4"], 3],
+
+    ["Gravitation", "The time period of a satellite revolving at a height equal to Earth's radius R above the surface is (g = 1 m/s^2):",
+     ["sqrt(32 pi^2 R)", "sqrt(4 pi^2 R)", "sqrt(8 pi^2 R)", "sqrt(2 pi^2 R)"], 0],
+
+    ["Gravitation", "Two satellites of masses m and 3m revolve around Earth in circular orbits of radii r and 3r, respectively. The ratio of their orbital speeds is:",
+     ["3:1", "sqrt(3):1", "1:1", "9:1"], 1],
+
+    ["Gravitation", "Assuming Earth has uniform density, a body's weight at depth d = R/2 is what if its surface weight is 200 N?",
+     ["100 N", "400 N", "300 N", "500 N"], 0],
+
+    ["Gravitation", "A body weighs 400 N on Earth's surface. Its weight at a depth equal to half Earth's radius is:",
+     ["300 N", "200 N", "100 N", "Zero"], 1],
+
+    ["Gravitation", "A body weighs 100 N on Earth's surface. Its gravitational force at a height equal to R/4 above the surface is:",
+     ["50 N", "64 N", "25 N", "100 N"], 1],
+
+    ["Gravitation", "Choose the incorrect statement:",
+     ["The linear speed of a planet revolving around the Sun remains constant.", "When a body falls towards Earth, Earth's displacement towards the body is negligible.", "The speed of a satellite in a given circular orbit remains constant.", "For a planet revolving around the Sun in an elliptical orbit, its total energy remains constant."], 0],
+
+    ["Gravitation", "A planet has twice Earth's mass and the same average density as Earth. An object weighing W on Earth will weigh on that planet:",
+     ["2^(2/3) W", "W", "2W", "2^(1/3) W"], 3],
+
+    ["Gravitation", "The escape velocities of planets A and B are in the ratio 1:2. Their radii are in the ratio 1:3. The ratio g_A : g_B is:",
+     ["4:3", "2:3", "3:4", "3:2"], 2],
+
+    ["Gravitation", "Earth has nine times the mass and twice the radius of planet P. If v_E is Earth's escape velocity, the escape velocity from P is v_E/sqrt(z). Find z.",
+     ["1", "3", "2", "18"], 2],
+
+    ["Gravitation", "A body of weight W is projected vertically upwards from Earth's surface to a height equal to nine times Earth's radius. Its weight at that height is:",
+     ["W/9", "W/3", "W/100", "W/81"], 2],
+
+    ["Gravitation", "At depth d below Earth's surface, g becomes four times its value at height 3R above the surface. If R = 6400 km, find d.",
+     ["5260 km", "2560 km", "640 km", "4800 km"], 3],
+
+    ["Gravitation", "An object falls from rest from a height R above Earth, where R is Earth's radius. Neglecting air resistance, its speed on reaching the surface is:",
+     ["sqrt(gR/2)", "sqrt(gR)", "sqrt(2gR)", "2sqrt(gR)"], 1],
+
+    ["Gravitation", "The gravitational field is E = -K/r^2. At r = 2 cm, gravitational potential is 10 J/kg. Find the potential at r = 3 cm, given K = 6 J cm/kg.",
+     ["9 J/kg", "11 J/kg", "10 J/kg", "12 J/kg"], 1]
+]
 # =========================================================
 # DATABASE
 # =========================================================
